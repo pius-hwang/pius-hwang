@@ -2,10 +2,10 @@
 
 ## Pius Hwang
 
-스타트업 프로젝트 리드(PL) 출신 풀스택 프리랜서.
-AI 제품(LLM 에이전트 · RAG · 실시간 스트리밍)과 SaaS 웹을 만듭니다.
+풀스택 프리랜서 SW Engineer
+AI 제품(챗봇 등)과 SaaS 웹 및 모바일 앱
 
-📍 South Korea · 🌐 [piusdev.com](https://piusdev.com) · 💼 [LinkedIn](https://linkedin.com/in/pius-hwang) · 🔬 [ORCID](https://orcid.org/0009-0008-2011-2604)
+📍 South Korea · 🌐 [piusdev.com](https://piusdev.com) 💼 [LinkedIn](https://linkedin.com/in/pius-hwang)
 
 ---
 
@@ -24,6 +24,8 @@ POST 기반 SSE 스트리밍 채팅, pgvector + RRF 하이브리드 검색 장�
 `flutter` `Spring` `Next.js`
 
 **과거 프로젝트들**:
+- 데이터 파이프라인 설계 및 개발
+- 다수 웹 및 모바일 풀스택 프로젝트
 
 ### 기록
 
