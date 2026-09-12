@@ -33,6 +33,11 @@ AI 제품(LLM 에이전트 · RAG · 실시간 스트리밍)과 SaaS 웹을 주�
 기술 결정의 근거와 운영에서 깨진 것들을 글로 남깁니다. ([전체 보기](https://piusdev.com/blog))
 
 <!-- BLOG-POST-LIST:START -->
+- [Prisma 7 + NestJS 11 + PostgreSQL 18 + pgvector: ORM과 벡터 검색의 실전 통합 전략](https://piusdev.com/blog/plit-prisma7-nestjs11-pgvector)
+- [LLM 기반 콘텐츠 생성 파이프라인과 어드민 CMS 아키텍처](https://piusdev.com/blog/plit-admin-cms-ai-generation)
+- [AI 파이프라인 실패 시 결제 안전성 설계: 선차감-환불 패턴과 멱등 트랜잭션](https://piusdev.com/blog/plit-billing-safety-idempotency)
+- [POST 기반 SSE 스트리밍과 Zustand 스토어 분리로 설계한 실시간 채팅 아키텍처](https://piusdev.com/blog/plit-post-sse-zustand)
+- [AI 인터랙티브 스토리의 호감도 시스템 설계: 행동 가이드, 이벤트 분기, 상태 복원](https://piusdev.com/blog/plit-affinity-system)
 <!-- BLOG-POST-LIST:END -->
 
 ### 일하는 방식
