@@ -2,8 +2,9 @@
 
 ## Pius Hwang · 비즈니스를 아는 개발자
 
-프리랜서 풀스택 개발자. 기획부터 배포·운영까지 혼자 끝내는 제품을 만듭니다.
-AI 제품(LLM 에이전트·RAG·스트리밍)과 SaaS 웹을 주로 합니다.
+스타트업 프로젝트 리드(PL) 출신 풀스택 프리랜서.
+기획부터 배포까지, 기술로 비즈니스를 성장시키는 개발 파트너입니다.
+AI 제품(LLM 에이전트 · RAG · 실시간 스트리밍)과 SaaS 웹을 주로 만듭니다.
 
 📍 South Korea · 🌐 [piusdev.com](https://piusdev.com) · 💼 [LinkedIn](https://linkedin.com/in/pius-hwang) · 🔬 [ORCID](https://orcid.org/0009-0008-2011-2604)
 
@@ -29,12 +30,10 @@ AI 제품(LLM 에이전트·RAG·스트리밍)과 SaaS 웹을 주로 합니다.
 
 ### 기록
 
-기술 결정의 근거와 운영에서 깨진 것들을 글로 남깁니다.
+기술 결정의 근거와 운영에서 깨진 것들을 글로 남깁니다. ([전체 보기](https://piusdev.com/blog))
 
-- [Prisma 7 + NestJS 11 + PostgreSQL 18 + pgvector 실전 통합 전략](https://piusdev.com/blog/plit-prisma7-nestjs11-pgvector)
-- [pgvector + RRF 로 대화 장기기억 만들기](https://piusdev.com/blog/plit-pgvector-rrf-memory)
-- [결제 안전성과 멱등성 설계](https://piusdev.com/blog/plit-billing-safety-idempotency)
-- [소셜 엔지니어링 사고 대응 기록](https://piusdev.com/blog/quik-social-engineering-incident-response)
+<!-- BLOG-POST-LIST:START -->
+<!-- BLOG-POST-LIST:END -->
 
 ### 일하는 방식
 
