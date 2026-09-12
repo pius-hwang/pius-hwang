@@ -3,29 +3,32 @@
 ## Pius Hwang
 
 스타트업 프로젝트 리드(PL) 출신 풀스택 프리랜서.
-기획부터 배포까지, 기술로 비즈니스를 성장시키는 개발 파트너입니다.
-AI 제품(LLM 에이전트 · RAG · 실시간 스트리밍)과 SaaS 웹을 주로 만듭니다.
+AI 제품(LLM 에이전트 · RAG · 실시간 스트리밍)과 SaaS 웹을 만듭니다.
 
 📍 South Korea · 🌐 [piusdev.com](https://piusdev.com) · 💼 [LinkedIn](https://linkedin.com/in/pius-hwang) · 🔬 [ORCID](https://orcid.org/0009-0008-2011-2604)
 
 ---
 
-### 만든 것
+### 최근 작업
 
-| 제품 | 무엇인가 | 스택 |
-|---|---|---|
-| **[ArchiFit](https://archifit.io)** | 드래그앤드롭으로 시스템 아키텍처를 설계하고 AI 가 소크라테스식으로 채점·피드백하는 학습 SaaS | Next.js 16 · Django 5 · Gemini · PostgreSQL |
-| **[Scavhaven](https://scavhaven.com)** | 종말물 방치형 RPG. 결정론적 시뮬레이션 기반 밸런싱 | React 19 · Vite · Zustand · Capacitor |
-| **Quik** | URL 단축 + 클릭 분석 + 팀 협업 | Next.js · PostgreSQL · Upstash |
-| **Plit** *(개발 중)* | 한국형 1:1 AI 캐릭터 챗 플랫폼. 호감도 · 장기기억 · 케미 스킬 | NestJS 11 · Prisma 7 · pgvector · Gemini |
-| **사주팔자** *(개발 중)* | 사주 계산 · 대운 · 오행 분석 웹앱 + Turbo Native 안드로이드 | Rails 8 · Hotwire · Kamal |
+**[Plit](https://plit.io)** · AI 캐릭터 챗 플랫폼
 
-각 제품의 설계 결정과 실패 기록은 [piusdev.com](https://piusdev.com) 에 케이스 스터디로 정리해 두었습니다.
+`NestJS 11` `Prisma 7` `PostgreSQL 18 (pgvector)` `Next.js 16` `Gemini` `Clerk` `Redis`
+
+POST 기반 SSE 스트리밍 채팅, pgvector + RRF 하이브리드 검색 장기기억, AI 파이프라인 실패를 전제로 한 선차감-환불 멱등 결제를 설계하고 구현했습니다. 기획부터 배포·운영까지 단독으로 맡고 있습니다.
+
+**클라이언트 프로젝트** · 웹 서비스 FE · BE · AI 상담 챗봇 *(계약상 비공개)*
+
+`FastAPI` `SQLAlchemy 2 (async)` `Procrastinate` `PostgreSQL (pgvector)` `Next.js` `TanStack Query` `Tailwind` `next-intl`
+
+그래프형 LLM 에이전트(노드 · 툴 · 프롬프트 분리)와 RAG 검색 계층을 맡아 PII 마스킹과 회귀 평가 스위트까지 붙였습니다.
+비동기 작업 큐 기반 외부 데이터 수집 파이프라인과 다국어 프론트엔드를 함께 구축했습니다.
 
 ### 공개한 것
 
-- **[seavoyage](https://github.com/pius-hwang/seavoyage)** — 해상 최단항로 탐색 Python 패키지. 커스텀 제한구역(GeoJSON) 적용 지원. [PyPI](https://pypi.org/project/seavoyage/)
+- **[seavoyage](https://github.com/pius-hwang/seavoyage)** — 해상 최단항로 탐색 Python 패키지. 커스텀 제한구역(GeoJSON) 적용. [PyPI](https://pypi.org/project/seavoyage/)
 - **[ai-agent](https://github.com/pius-hwang/ai-agent)** — ruff 정적 분석 + Claude tool-use 루프를 결합한 코드 리뷰 에이전트
+- **[vulnrun](https://github.com/pius-hwang/vulnrun)** — 단계별 웹 취약점 연습장. 의도적으로 취약한 앱 8종, 표준 라이브러리만 사용
 - **[SeoulMate](https://github.com/pius-hwang/SeoulMate)** — 외국인 대상 AI 서울 생활 도우미 (Gemini 3 Seoul Hackathon 출품)
 
 ### 기록
@@ -40,17 +43,19 @@ AI 제품(LLM 에이전트 · RAG · 실시간 스트리밍)과 SaaS 웹을 주�
 - [AI 인터랙티브 스토리의 호감도 시스템 설계: 행동 가이드, 이벤트 분기, 상태 복원](https://piusdev.com/blog/plit-affinity-system)
 <!-- BLOG-POST-LIST:END -->
 
-### 일하는 방식
-
-- 기획 → 스키마 → 구현 → 배포 → 모니터링까지 한 사람이 책임집니다
-- 인프라를 직접 굴립니다: Docker · Coolify · Cloudflare Tunnel · Traefik · self-hosted GlitchTip
-- 문서와 ADR 을 남깁니다. 인수인계 가능한 코드를 전제로 씁니다
-
 ### 스택
 
-`TypeScript` `Python` `Next.js` `React` `NestJS` `FastAPI` `Django` `Rails`
-`PostgreSQL` `pgvector` `TimescaleDB` `Redis` `Prisma` `SQLAlchemy`
-`LangGraph` `Gemini` `Claude API` `Docker` `Vercel` `Render` `Cloudflare`
+**언어** `TypeScript` `Python` `Ruby` `C#` `Kotlin` `Shell`
+
+**프론트엔드** `Next.js` `React` `Svelte` `Vite` `Tailwind` `TanStack Query` `Zustand` `Capacitor`
+
+**백엔드** `NestJS` `FastAPI` `Django` `Rails` `Prisma` `SQLAlchemy` `Procrastinate`
+
+**데이터** `PostgreSQL` `pgvector` `TimescaleDB` `Redis`
+
+**AI** `LangGraph` `Gemini` `Claude API` `OpenAI Embeddings` `RAG` `Langfuse`
+
+**인프라** `Docker` `Vercel` `Render` `Cloudflare` `Coolify` `Traefik` `GitHub Actions` `Sentry / GlitchTip`
 
 ---
 
