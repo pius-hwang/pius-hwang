@@ -1,6 +1,6 @@
 <!-- pius-hwang/pius-hwang/README.md -->
 
-## Pius Hwang · 비즈니스를 아는 개발자
+## Pius Hwang
 
 스타트업 프로젝트 리드(PL) 출신 풀스택 프리랜서.
 기획부터 배포까지, 기술로 비즈니스를 성장시키는 개발 파트너입니다.
