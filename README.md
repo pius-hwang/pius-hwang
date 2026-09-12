@@ -12,15 +12,15 @@ AI 제품(LLM 에이전트 · RAG · 실시간 스트리밍)과 SaaS 웹을 주�
 
 ### 만든 것
 
-| 제품 | 무엇인가 | 스택 | 상태 |
-|---|---|---|---|
-| [ArchiFit](https://archifit.io) | 드래그앤드롭으로 시스템 아키텍처를 설계하고 AI가 소크라테스식으로 채점·피드백하는 학습 SaaS | Next.js 16 · Django 5 · Gemini · PostgreSQL | 운영 중 |
-| [Scavhaven](https://scavhaven.com) | 종말물 방치형 RPG. 결정론적 시뮬레이션 기반 밸런싱 | React 19 · Vite · Zustand · Capacitor | 운영 중 |
-| Plit | 한국형 1:1 AI 캐릭터 챗 플랫폼. 호감도·장기기억·케미 스킬 | NestJS 11 · Prisma 7 · pgvector · Gemini | 개발 중 |
-| Quik | URL 단축 + 클릭 분석 + 팀 협업 | Next.js · PostgreSQL · Upstash | 운영 중 |
-| 사주팔자 | 사주 계산·대운·오행 분석 웹앱 + Turbo Native 안드로이드 | Rails 8 · Hotwire · Kamal | 개발 중 |
+| 제품 | 무엇인가 | 스택 |
+|---|---|---|
+| **[ArchiFit](https://archifit.io)** | 드래그앤드롭으로 시스템 아키텍처를 설계하고 AI 가 소크라테스식으로 채점·피드백하는 학습 SaaS | Next.js 16 · Django 5 · Gemini · PostgreSQL |
+| **[Scavhaven](https://scavhaven.com)** | 종말물 방치형 RPG. 결정론적 시뮬레이션 기반 밸런싱 | React 19 · Vite · Zustand · Capacitor |
+| **Quik** | URL 단축 + 클릭 분석 + 팀 협업 | Next.js · PostgreSQL · Upstash |
+| **Plit** *(개발 중)* | 한국형 1:1 AI 캐릭터 챗 플랫폼. 호감도 · 장기기억 · 케미 스킬 | NestJS 11 · Prisma 7 · pgvector · Gemini |
+| **사주팔자** *(개발 중)* | 사주 계산 · 대운 · 오행 분석 웹앱 + Turbo Native 안드로이드 | Rails 8 · Hotwire · Kamal |
 
-각 제품의 설계 결정과 실패 기록은 [piusdev.com/portfolio](https://piusdev.com) 에 케이스 스터디로 정리해 두었습니다.
+각 제품의 설계 결정과 실패 기록은 [piusdev.com](https://piusdev.com) 에 케이스 스터디로 정리해 두었습니다.
 
 ### 공개한 것
 
